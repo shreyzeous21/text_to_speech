@@ -1,0 +1,76 @@
+main
+{
+  background-color: rgb(255 ,255, 255);
+  height: 500px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(54, 22, 109);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title
+{
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: grey;
+}
+.text-section
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: bold;
+  color: green;
+  align-self: center;
+}
+#text
+{
+  height: 7rem;
+  width: 20rem;
+  border: none;
+  outline: 2px solid grey;
+  border-radius: 0.6rem;
+  resize: none;
+  font-size: 15px;
+  padding: 8px 30px;
+}
+.voice-section
+{
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.voice-title
+{
+  font-weight: bold;
+  color: green;
+  align-self: center;
+}
+#voice
+{
+  height: 2rem;
+  width: 20rem;
+  border-radius: 2rem;
+  border: solid grey;
+  border-style: inset;
+  padding: 0px 20px;
+}
+.submit
+{
+  background-color: lightblue;
+  color: black;
+  height: 3rem;
+  width: 20rem;
+  border-radius: 3rem;
+  padding: 0rem 1rem 0rem 0px;
+  border: solid grey;
+  border-style: outset;
+  font-size: 1.2rem;
+}
